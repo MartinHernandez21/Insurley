@@ -11,6 +11,7 @@ body{
     padding: 0;
     margin-top: 0%;
     margin-bottom: 0%;
+    
 }
 
 .menu{  
@@ -337,10 +338,10 @@ body{
 /* Seccion de INICIAR SESION */
 
 .formulario-iniciarsesion{
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     width: 400px;
     background: white;
     border-radius: 10px;
@@ -424,13 +425,14 @@ input[type="submit"]{
 
 /*Seccion REGISTRARSE*/
 .formulario-registrarte{
-    position: absolute;
-    top: 80%;
+    position: relative;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     width: 400px;
     background: white;
     border-radius: 10px;
+    margin-top: 100px
 }
 
 .formulario-registrarte h1{
@@ -479,36 +481,8 @@ input[type="submit"]{
 
 }
 
-/*Seccion Footer*/
-
-.footer{ 
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin: 0;
-    width: 100%;
-    height: 100px;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    left: 0;
-}
-
-
-
-.footer div ul {
-    display: flex;
-    list-style: none;
-    
-}
-
-.footer img {
-    width: 50px;
-    height: 50px;
-}
-
-.footer .logofb, .logoig {
-    margin-left: -50%;
-    padding: -50%;
+.Encontranosen{
+    color: black;
 }
 
 
