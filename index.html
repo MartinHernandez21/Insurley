@@ -14,17 +14,17 @@
 <header class="contenedor-menu">
     
     <nav>
-    <div class="logoinsurley" align="center" border="0">
+    <div class="d-flex justify-content-center" align="center" border="0">
         <img src="imagenes/Insurley Logo.png" alt="empresa" width="400">
     </div>
-    <div>
+    <div class= "d-flex justify-content-center">
         <ul class="menu">
-            <li> <a href="index.html"> Inicio </a></li>
-            <li><a href="./quienessomos.html" > Quienes Somos </a></li>
-            <li><a href="./contacto.html" > Contacto </a></li>
-            <li><a href="./solicitudyprogreso.html" > Solicitud y Progreso </a></li>
-            <li> <a href="./Iniciarsesion.html" > Iniciar Sesion </a></li>
-            <li><a href="./registrarse.html" > Registrarse</a></li>
+            <li> <a href="index.html"><button type="button" class="btn btn-primary btn-lg">Inicio</button> </a></li>
+            <li><a href="./quienessomos.html"><button type="button" class="btn btn-primary btn-lg">Quienes Somos</button></a></li>
+            <li><a href="./contacto.html"> <button type="button" class="btn btn-primary btn-lg">Contacto</button></a></li>
+            <li><a href="./solicitudyprogreso.html"> <button type="button" class="btn btn-primary btn-lg">Solicitud Y Progreso</button></a></li>
+            <li> <a href="./Iniciarsesion.html"><button type="button" class="btn btn-primary btn-lg">Iniciar Sesion</button></a></li>
+            <li><a href="./registrarse.html"><button type="button" class="btn btn-primary btn-lg">Registrarse</button></a></li>
         </ul>
     </div>
     
@@ -41,22 +41,29 @@
             <div class="carousel-item active">
                 <img src="/imagenes/acuerdo.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
+                <a href="/registrarse.html">
                 <h5>Registrate</h5>
                 <p>Crea tu usuario, estamos para ayudarte</p>
+                </a>
             </div>
             </div>
-        <div class="carousel-item">
+            <a class="sublinee" href="/solicitudyprogreso.html">       
+            <div class="carousel-item">
             <img src="/imagenes/Asesoramiento.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
+                
                 <h5>Solicitud y Progreso</h5>
                 <p>Tenes el derecho de saber el estado de tu tramite</p>
+            </a>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/imagenes/justicia.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
+                <a href="/contacto.html">
                 <h5>Contactate</h5>
                 <p>Hacenos tu consulta, mandanos un mensaje</p>
+                </a>
             </div>
         </div>
         </div>
@@ -68,7 +75,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-</div>
+    </div>
 
 <div class="container">
 
@@ -120,14 +127,14 @@ class="btn btn-primary btn-floating m-2"
     style="background-color: #1fc919;"
         href="#!"
         role="button"
-        >Whatsapp<i class="fab fa-twitter"></i
+        >Whatsapp<i class="fab fa-twitter"><a href="https://api.whatsapp.com/send?phone=123456"></a></i
         ></a>
 
         <!-- Instagram -->
         <a
 class="btn btn-primary btn-floating m-1"
         style="background-color: #ac2bac;"
-        href="#!"
+        href="https://www.instagram.com/insurley.abogados/" target="_BLANK"
         role="button">
         Instagram<i class="fab fa-instagram"></i
         ></a>
@@ -138,7 +145,7 @@ class="btn btn-primary btn-floating m-1"
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2022 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Insurley.com</a>
+    <a class="text-white" href="https://www.insurley.com.ar/">Insurley.com</a>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

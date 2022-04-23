@@ -1,7 +1,7 @@
 body {
 	background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 8s ease infinite;
 	height: 5%;
     
 }
@@ -38,7 +38,6 @@ body {
     cursor: pointer;
     border-color: black;
     text-decoration: none;
-    color: rgb(47, 47, 194);
     padding: 15px;
     display: grid;
     font-size: 20px;
@@ -56,7 +55,7 @@ body {
 }
 
 .menu li a:hover{
-    background-color: rgb(175, 201, 241);
+    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
 }
@@ -68,26 +67,33 @@ body {
     
 }
 
+.carousel-caption h5{
+    font-size: 25px;
+    color: black;
+    
+}
+
+.carousel-caption p{
+    font-size: 22px;
+    color: black;
+    
+}
 @media{
 
-.carousel-inner:hover{
+.d-block:hover{
     cursor: pointer;
     opacity: 50%;
-    
-
-}
+    transition: 0.2s;
 }
 .carousel-caption:hover{
-    opacity: 100%;
     cursor: pointer;
-    color: red;
+    color: black;
+    transition: 0.6s;
+    box-shadow: 5px 5px 8px black;
+    background-color: #61baf5;
+    border-radius: 15%;
     
 }
-.carousel-item:hover{
-    cursor: pointer;
-    font-size: 45px;
-    transition: 0.8s;
-    
 }
 
 .container{
@@ -263,9 +269,6 @@ body {
     color: rgb(47, 47, 194);
 }
 
-
-
-
 /* Seccion de INICIAR SESION */
 
 .formulario-iniciarsesion{
@@ -420,11 +423,16 @@ input[type="submit"]{
     padding: 10%;
 }
 
+/*Footer*/
+
+.bg-light{
+background: red;
+}
 
 
 @media (max-width: 769px) {
     body{
-        background: white;
+        background: blue;
     }
     
 }
