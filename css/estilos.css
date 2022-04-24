@@ -60,6 +60,9 @@ body {
     transform: translateY(-3%);
 }
 
+.d-block{
+    height: 580px;
+}
 
 .carousel-inner{
     padding: 0% 25%;
@@ -75,9 +78,9 @@ body {
 
 .carousel-caption p{
     font-size: 22px;
-    color: black;
-    
+    color: black;   
 }
+
 @media{
 
 .d-block:hover{
@@ -90,8 +93,10 @@ body {
     color: black;
     transition: 0.6s;
     box-shadow: 5px 5px 8px black;
-    background-color: #61baf5;
-    border-radius: 15%;
+    background-size: 400% 400%;
+    background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
+    animation: gradient 8s ease infinite;
+	border-radius: 15%;
     
 }
 }
@@ -280,6 +285,7 @@ body {
     background: white;
     border-radius: 10px;
     margin-top: 100px;
+    border: solid 1px black;
 }
 
 .formulario-iniciarsesion h1{
@@ -366,7 +372,9 @@ input[type="submit"]{
     width: 400px;
     background: white;
     border-radius: 10px;
-    margin-top: 100px
+    margin-top: 100px;
+    border: solid 1px black;
+
 }
 
 .formulario-registrarte h1{
