@@ -152,32 +152,6 @@ body {
 
 /* Seccion de "contacto"*/
 
-.justicia1{
-    background-image: url("/imagenes/justicia.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-.contenedor-solicitud{
-    text-align: center;
-    margin-top: 2%;
-    text-shadow: #ffffff;
-    border: 3px solid black;
-    font-size: 30px;
-    text-align: center;
-    background: rgb(175, 201, 241);
-    margin: 10px 400px;
-    
-}
-
-.contenedor-solicitud h1{
-    color: rgb(47, 47, 194);
-    
-}
-
 .form-contenedor{
     display: flex;
     align-items: center;
@@ -240,14 +214,6 @@ body {
 
 /* Seccion Solicitud y Progreso*/
 
-.img_reunion{
-    background-image: url("/imagenes/Asesoramiento.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
 
 .solicitudyprogreso{
     border: 3px solid black;
@@ -364,6 +330,7 @@ input[type="submit"]{
 }
 
 /*Seccion REGISTRARSE*/
+
 .formulario-registrarte{
     position: relative;
     top: 50%;
