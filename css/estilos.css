@@ -81,25 +81,26 @@ body {
     color: black;   
 }
 
-@media{
 
-.d-block:hover{
-    cursor: pointer;
-    opacity: 50%;
-    transition: 0.2s;
-}
-.carousel-caption:hover{
-    cursor: pointer;
-    color: black;
-    transition: 0.6s;
-    box-shadow: 5px 5px 8px black;
-    background-size: 400% 400%;
-    background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
-    animation: gradient 8s ease infinite;
-	border-radius: 15%;
+
+    .d-block:hover{
+        cursor: pointer;
+        opacity: 50%;
+        transition: 0.2s;
+    }
+    .carousel-caption:hover{
+        cursor: pointer;
+        color: black;
+        transition: 0.6s;
+        box-shadow: 5px 5px 8px black;
+        background-size: 400% 400%;
+        background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
+        animation: gradient 8s ease infinite;
+        border-radius: 15%;
+        
+    }
     
-}
-}
+
 
 .container{
     width: 100%;
