@@ -210,7 +210,10 @@ body {
 .form-img img{
     width: 45%;
     margin: auto;    
-    
+}
+
+.contactatecon{
+    text-align: center;
 }
 
 /* Seccion Solicitud y Progreso*/
@@ -241,6 +244,9 @@ body {
     color: rgb(47, 47, 194);
 }
 
+.solyprog{
+    text-align: center;
+}
 /* Seccion de INICIAR SESION */
 
 .formulario-iniciarsesion{
