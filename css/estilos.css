@@ -1,40 +1,14 @@
 body {
-	background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
+	background: linear-gradient(-45deg, #8ec4df, #6579dd, #cdd5df, #cec8ee);
 	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
+	animation: gradient 6s ease infinite;
 	height: 5%;
     
 }
 
-/* Seccion del index*/
-
-
-.menu{  
-    padding: 0%;
-    width: 900px;
-    max-width: 900px;
-    margin: auto;
-    display: grid;
-    grid-template-columns:  20% 20% 20%;
-    grid-template-rows: minmax(10px, auto);
-    column-gap: 4em;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-width: 700px;
-    min-height: auto;
-    grid-area: 500px;
-    box-sizing: border-box;
-    
-    
-}
-
-.menu li a{
+.container-fluid a{
     width: auto;
     height: auto;
-    border: 2px solid;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    font-size: 18px;
     cursor: pointer;
     border-color: black;
     text-decoration: none;
@@ -42,19 +16,12 @@ body {
     display: grid;
     font-size: 20px;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
     cursor: pointer;
     
 }
 
-.menu li{
-    display: grid;
-    text-align: center;
-    flex-wrap: wrap;
-    min-width: 300px;
-}
-
-.menu li a:hover{
+.navbar-brand:hover{
     
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
@@ -81,14 +48,12 @@ body {
     color: black;   
 }
 
-
-
-    .d-block:hover{
+.d-block:hover{
         cursor: pointer;
         opacity: 50%;
         transition: 0.2s;
-    }
-    .carousel-caption:hover{
+}
+.carousel-caption:hover{
         cursor: pointer;
         color: black;
         transition: 0.6s;
@@ -98,9 +63,7 @@ body {
         animation: gradient 8s ease infinite;
         border-radius: 15%;
         
-    }
-    
-
+}
 
 .container{
     width: 100%;
@@ -407,19 +370,8 @@ input[type="submit"]{
 
 /*Footer*/
 
-.bg-light{
-background: red;
-}
 
-
-@media (max-width: 769px) {
-    body{
-        background: blue;
-    }
-    
-}
-
-@media  (max-width: 1600px){
+/* @media  (max-width: 1600px){
     .fotos{
         width: 100%;
     }
@@ -453,7 +405,7 @@ background: red;
         }
     }    
     
-}
+} */
 @media (max-width: 1565px){
     .contenedor-solicitud {
         font-size: 20px;
