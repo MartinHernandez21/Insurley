@@ -92,7 +92,7 @@ body {
   text-decoration: none;
   color: blue; }
 
-/* Seccion Contacto */
+/* Seccion de "contacto"*/
 .form-contenedor {
   display: flex;
   align-items: center;
@@ -100,39 +100,48 @@ body {
   justify-content: center;
   background: #878787;
   margin: 50px 50px; }
-  .form-contenedor .form {
-    min-width: 400px;
-    flex: 1;
-    text-align: right;
-    padding: 40px; }
-    .form-contenedor .form .form_input {
-      width: 100%;
-      padding: 7px;
-      margin: 6px 0;
-      border: none;
-      border-bottom: 3px solid blue;
-      background: #fffcfc; }
-      .form-contenedor .form .form_input .form textarea {
-        min-height: 140px;
-        resize: none; }
-        .form-contenedor .form .form_input .form textarea .form-img {
-          flex: 1;
-          padding: 10px;
-          display: flex; }
-          .form-contenedor .form .form_input .form textarea .form-img .form-img div {
-            padding: 10px; }
-            .form-contenedor .form .form_input .form textarea .form-img .form-img div .img-contenedor {
-              margin: auto; }
-              .form-contenedor .form .form_input .form textarea .form-img .form-img div .img-contenedor .img-contenedor div {
-                background-color: white;
-                border-radius: 70%;
-                text-align: center;
-                padding: 0; }
-                .form-contenedor .form .form_input .form textarea .form-img .form-img div .img-contenedor .img-contenedor div .form-img img {
-                  width: 45%;
-                  margin: auto; }
-                  .form-contenedor .form .form_input .form textarea .form-img .form-img div .img-contenedor .img-contenedor div .form-img img .contactatecon {
-                    text-align: center; }
+
+.form {
+  min-width: 400px;
+  flex: 1;
+  text-align: right;
+  padding: 40px; }
+
+.form_input {
+  width: 100%;
+  padding: 7px;
+  margin: 6px 0;
+  border: none;
+  border-bottom: 3px solid blue;
+  background: #fffcfc; }
+
+.form textarea {
+  min-height: 140px;
+  resize: none; }
+
+.form-img {
+  flex: 1;
+  padding: 10px;
+  display: flex; }
+
+.form-img div {
+  padding: 10px; }
+
+.img-contenedor {
+  margin: auto; }
+
+.img-contenedor div {
+  background-color: white;
+  border-radius: 70%;
+  text-align: center;
+  padding: 0; }
+
+.form-img img {
+  width: 45%;
+  margin: auto; }
+
+.contactatecon {
+  text-align: center; }
 
 /* Seccion Solicitud y Progreso*/
 .solicitudyprogreso {
