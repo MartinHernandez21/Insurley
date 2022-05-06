@@ -1,0 +1,396 @@
+body {
+	background: linear-gradient(-45deg, #8ec4df, #6579dd, #cdd5df, #cec8ee);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	height: 5%;
+    
+}
+
+
+
+    .container-fluid a{
+
+
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        border-color: black;
+        text-decoration: none;
+        padding: 5px 10px 10px 10px;
+        display: grid;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px;
+
+        .container-fluid{
+            padding: 0px 50px;
+
+        .navbar-brand:hover{
+    
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+        }
+    }
+}
+
+.d-block{
+    height: 580px;
+}
+
+.carousel-inner{
+    padding: 0% 25%;
+    margin: auto;
+    
+}
+
+.carousel-caption h5{
+    font-size: 25px;
+    color: black;
+    
+}
+
+.carousel-caption p{
+    font-size: 22px;
+    color: black;   
+}
+
+.d-block:hover{
+        cursor: pointer;
+        opacity: 50%;
+        transition: 0.2s;
+}
+.carousel-caption:hover{
+        cursor: pointer;
+        color: black;
+        transition: 0.6s;
+        box-shadow: 5px 5px 8px black;
+        background-size: 400% 400%;
+        background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
+        animation: gradient 8s ease infinite;
+        border-radius: 15%;
+        
+}
+
+.container1{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+
+.container1 .card{
+    width: 290px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    border: 2px solid black;
+}
+
+.container1 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container1 .card img{
+    width: 290px;
+    height: 200px;
+    
+}
+.container1 .card h4{
+    font-weight: 600;
+}
+
+.container1 .card p{
+    padding: 0 0.5rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container1 .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: blue
+}
+
+
+/* Seccion Contacto */
+
+.form-contenedor{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(135, 135, 135);
+    margin: 50px 50px;
+
+    .form{
+        min-width: 400px;
+        flex: 1;
+        text-align: right;
+        padding: 40px;
+
+        .form_input{
+            width: 100%;
+            padding: 7px;
+            margin: 6px 0;
+            border: none;
+            border-bottom: 3px solid rgb(0, 0, 255);
+            background: rgb(255, 252, 252);
+
+            .form textarea{
+                min-height: 140px;
+                resize: none;
+
+                .form-img{
+                    flex: 1;
+                    padding: 10px;
+                    display: flex;
+
+                    .form-img div{
+                        padding: 10px;
+
+                        .img-contenedor{
+                            margin: auto;
+
+                            .img-contenedor div{
+                                background-color: rgb(255, 255, 255);
+                                border-radius: 70%;
+                                text-align: center;
+                                padding: 0;
+
+                                .form-img img{
+                                    width: 45%;
+                                    margin: auto;
+
+                                    .contactatecon{
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Seccion Solicitud y Progreso*/
+
+
+.solicitudyprogreso{
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    background: rgb(175, 201, 241);
+    margin: 10px 400px;
+    
+}
+
+.solicitudyprogreso h1{
+    color: rgb(47, 47, 194);
+    text-transform: uppercase;
+}
+.solicitudyprogreso2{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 500px;
+    background: rgb(175, 201, 241);
+
+}
+.solicitudyprogreso2 p{
+    color: rgb(47, 47, 194);
+}
+
+.solyprog{
+    text-align: center;
+}
+/* Seccion de INICIAR SESION */
+
+.formulario-iniciarsesion{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    border: solid 1px black;
+}
+
+.formulario-iniciarsesion h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario-iniciarsesion form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+.formulario-iniciarsesion .nombredeusuario{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px auto;
+}
+
+
+.nombredeusuario input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.nombredeusuario label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: blue;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-color: black;
+    transition: .5s;
+}
+
+.registrarse{
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.registrarse a{
+    color: blue;
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration:  underline;
+}
+
+/*Seccion REGISTRARSE*/
+
+.formulario-registrarte{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    border: solid 1px black;
+
+}
+
+.formulario-registrarte h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario-registrarte form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.formulario-registrarte .nombredeusuario1{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px auto;
+}
+
+.nombredeusuario1 input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.nombredeusuario1 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color:#adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.acuerdo1{
+    background-image: url("/imagenes/acuerdo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*Footer*/
+
+.footer1{
+    background-color: white;
+    bottom: 0;
+
+}
+
+@media (max-width: 1565px){
+    .contenedor-solicitud {
+        font-size: 20px;
+        display: grid;
+        border: solid black;
+        margin: 10px 5px 10px 5px;
+
+    }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
