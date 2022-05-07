@@ -24,8 +24,10 @@ body {
 .d-block {
   height: 580px; }
 
+  
+
 .carousel-inner {
-  padding: 0% 25%;
+  padding: 0% 15%;
   margin: auto; }
 
 .carousel-caption h5 {
@@ -313,3 +315,8 @@ input[type="submit"] {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+
+.rounded-circle{
+  width: 150px;
+}
