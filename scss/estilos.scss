@@ -6,10 +6,7 @@ body {
     
 }
 
-
-
-    .container-fluid a{
-
+.container-fluid a{
 
         width: auto;
         height: auto;
@@ -38,7 +35,7 @@ body {
 }
 
 .carousel-inner{
-    padding: 0% 25%;
+    padding: 0% 15%;
     margin: auto;
     
 }
@@ -121,6 +118,11 @@ body {
     color: blue
 }
 
+/* Quienes Somos */ 
+
+.rounded-circle{
+    width: 150px;
+}
 
 /* Seccion de "contacto"*/
 
