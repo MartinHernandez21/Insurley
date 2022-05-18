@@ -24,6 +24,8 @@ body {
 .d-block {
   height: 580px; }
 
+  
+
 .carousel-inner {
   padding: 0% 15%;
   margin: auto; }
@@ -92,9 +94,12 @@ body {
   text-decoration: none;
   color: blue; }
 
-/* Quienes Somos */
-.rounded-circle {
-  width: 150px; }
+/* Quienes Somos */ 
+
+.rounded-circle{
+  width: 150px;
+}
+
 
 /* Seccion de "contacto"*/
 .form-contenedor {
@@ -148,6 +153,7 @@ body {
   text-align: center; }
 
 /* Seccion Solicitud y Progreso*/
+
 .solicitudyprogreso {
   border: 3px solid black;
   font-size: 30px;
@@ -303,7 +309,7 @@ input[type="submit"] {
   background-color: white;
   bottom: 0; }
 
-@media (max-width: 1565px) {
+@media (max-width: 15px) {
   .contenedor-solicitud {
     font-size: 20px;
     display: grid;
@@ -317,3 +323,23 @@ input[type="submit"] {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+@media (max-width:920px){
+  .logoinsu{
+    height: 80px;
+    width: 200px;
+  }
+}
+
+@media(max-width:920px){
+  .d-block, .w-100 {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media(max-width:920px){
+  .card{
+  height: 200px;
+  }
+}
