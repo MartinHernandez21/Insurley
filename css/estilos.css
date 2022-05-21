@@ -7,6 +7,14 @@ body {
   animation: gradient 6s ease infinite;
   height: 5%; }
 
+  .text-color {
+    color: #fff
+}
+
+.carousel-item img {
+    height: 400px
+}
+
 .container-fluid a {
   width: auto;
   height: auto;
@@ -24,15 +32,15 @@ body {
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
       transform: translateY(-3%); }
 
+.carousel-caption h3:hover{
+  cursor: pointer;
+  transition: 0.2s;
+}
+
 .d-block {
   height: 580px; }
 
-  .card{
-    justify-content: center;
-
-  }
-
-.carousel-inner {
+/* .carousel-inner {
   padding: 0% 15%;
   margin: auto; }
 
@@ -42,13 +50,13 @@ body {
 
 .carousel-caption p {
   font-size: 22px;
-  color: black; }
+  color: black; } */
 
-.d-block:hover {
+/* .d-block:hover {
   cursor: pointer;
   opacity: 50%;
-  transition: 0.2s; }
-
+  transition: 0.2s; } */
+/* 
 .carousel-caption:hover {
   cursor: pointer;
   color: black;
@@ -57,7 +65,13 @@ body {
   background-size: 400% 400%;
   background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
   animation: gradient 8s ease infinite;
-  border-radius: 15%; }
+  border-radius: 15%; } */
+
+
+  .card{
+    justify-content: center;
+
+  }
 
 @media screen and( max-width: 768px) {
   .carousel-inner {
