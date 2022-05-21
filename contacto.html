@@ -25,7 +25,6 @@
                     <a href="index.html" class="navbar-brand btn btn-primary btn-lg">Inicio</a>
                     <a href="./quienessomos.html" class="navbar-brand btn btn-primary btn-lg">Quienes Somos</a>
                     <a href="./contacto.html" class="navbar-brand btn btn-primary btn-lg">Contacto</a>
-                    <a href="./solicitudyprogreso.html" class="navbar-brand btn btn-primary btn-lg">Solicitud y Progreso</a>
                     <a href="./Iniciarsesion.html" class="navbar-brand btn btn-primary btn-lg">Iniciar Sesion</a>
                     <a href="./registrarse.html" class="navbar-brand btn btn-primary btn-lg">Registrarse</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,36 +34,42 @@
         </nav>
     </header>
 <main>
-    <div class="contactatecon">
-        <div class="p-3 mb-2  bg-primary text-white fs-2 bg-opacity-75" role="alert">
-            <h4 class="fs-2 alert-heading">Contactate con nosotros</h4>
-    </div> 
     <section>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
         
-    
-    <div class="form-contenedor">
-        <form class="form">
-            <div class="form_section">
-                <input type="text" class="form_input" placeholder="Ingrese su Nombre y Apellido">
-            </div>
-            <div class="form_section">
-                <input type="email" class="form_input" placeholder=" Ingrese su Email">
-            </div>
-            <div class="form_section">
-                <textarea class="form_input" placeholder="Escriba su mensaje"></textarea>
-            </div>
-            <div class="form_section">
-                <input type="submit" class="form_input1">
-            </div>
-        </form>
-        <div class="form-img">
-            <div class="img-contenedor">
-                <div>
-                <img src="./imagenes/carta.png" alt="">
-            </div>
-            </div>
+        <div class="container contact-form">
+                    <div class="contact-image">
+                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+                    </div>
+                    <form method="post">
+                        <h3>Contactate con nosotros</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control" placeholder="Nombre y Apellido" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmail" class="form-control" placeholder="Email" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control" placeholder="Numero de Telefono" value="" />
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="txtMsg" class="form-control" placeholder="Escribi tu mensaje" style="width: 100%; height: 150px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
         </div>
-    </div>
     </section>
 </main>
 <footer class="bg-light text-center text-black">

@@ -25,7 +25,6 @@
                     <a href="index.html" class="navbar-brand btn btn-primary btn-lg">Inicio</a>
                     <a href="./quienessomos.html" class="navbar-brand btn btn-primary btn-lg">Quienes Somos</a>
                     <a href="./contacto.html" class="navbar-brand btn btn-primary btn-lg">Contacto</a>
-                    <a href="./solicitudyprogreso.html" class="navbar-brand btn btn-primary btn-lg">Solicitud y Progreso</a>
                     <a href="./Iniciarsesion.html" class="navbar-brand btn btn-primary btn-lg">Iniciar Sesion</a>
                     <a href="./registrarse.html" class="navbar-brand btn btn-primary btn-lg">Registrarse</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,31 +34,32 @@
         </nav>
     </header>
 <main>
-    <div class="formulario-registrarte">
-        <h1>Registrate</h1>
-        <form action="envio.php" method="post">
-            <div class="nombredeusuario1">
-                <input type="text" required placeholder= "Nombre y Apellido">
-                
+
+    <form class="formu1">
+        <h2 class="formu1_titulo"> Registrarse</h2>
+        <p class="formu1_parrafo">¿Ya tenes cuenta? <a href="./Iniciarsesion.html" class="formu1_link"> Iniciar Sesion</a></p>
+    
+        <div class="formu1_contenedor">
+            <div class="formu1_grupo">
+                <input type="text" id="nombre" class="formu1_input" placeholder=" ">
+                <label for="Nombre" class="formu1_label"> Nombre y Apellido</label>
+                <span class="formu1_linea"></span>
             </div>
-            <div class="nombredeusuario1">
-                <input type="email" required placeholder= "Email" >
-                
+            <div class="formu1_grupo">
+                <input type="text" id="usuario" class="formu1_input" placeholder=" ">
+                <label for="Email" class="formu1_label">Email</label>
+                <span class="formu1_linea"></span>
             </div>
-            <div class="nombredeusuario1">
-                <input type="password" required placeholder="Contraseña">
-                
+            <div class="formu1_grupo">
+                <input type="text" id="password" class="formu1_input" placeholder="  ">
+                <label for="password" class="formu1_label">Contraseña</label>
+                <span class="formu1_linea"></span>
             </div>
-            <div class="nombredeusuario1">
-                <input type="text" required placeholder="N° de Documento" >
-                
-            </div>
-                <input type="submit" value="Registrarme">
-                        <div class="registrarse">
-                Quiero <a href="./Iniciarsesion.html">Iniciar Sesion</a>
-            </div>
-        </form>
-    </div>
+    
+            <input type="submit" class="formu1_submit" value="Crear Usuario">
+        </div>
+
+
 </main>
 <footer class="bg-light text-center text-black">
     <!-- Grid container -->

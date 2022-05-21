@@ -24,7 +24,6 @@
                     <a href="index.html" class="navbar-brand btn btn-primary btn-lg">Inicio</a>
                     <a href="./quienessomos.html" class="navbar-brand btn btn-primary btn-lg">Quienes Somos</a>
                     <a href="./contacto.html" class="navbar-brand btn btn-primary btn-lg">Contacto</a>
-                    <a href="./solicitudyprogreso.html" class="navbar-brand btn btn-primary btn-lg">Solicitud y Progreso</a>
                     <a href="./Iniciarsesion.html" class="navbar-brand btn btn-primary btn-lg">Iniciar Sesion</a>
                     <a href="./registrarse.html" class="navbar-brand btn btn-primary btn-lg">Registrarse</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,25 +35,34 @@
 
 
 <main>
-    <div class="formulario-iniciarsesion">
-        <h1>Iniciar Sesion</h1>
-        <form action="envio.php" method="post">
-            <div class="nombredeusuario">
-                <input type="text" required placeholder="Nombre de Usuario">
-                
-            </div>
-            <div class="nombredeusuario">
-                <input type="password" required placeholder="Contraseña" >
-                
-            </div>
-            <div class="recordar">¿Olvido su contraseña?
-            </div>
-                <input type="submit" value="Ingresar">
-                        <div class="registrarse">
-                Quiero <a href="./registrarse.html">registrarme</a>
-            </div>
-        </form>
+<form class="formu1">
+    <h2 class="formu1_titulo"> Iniciar Sesion</h2>
+    <p class="formu1_parrafo">¿Aun no tenes cuenta? <a href="./registrarse.html" class="formu1_link"> Entra aqui</a></p>
+
+    <div class="formu1_contenedor">
+        <div class="formu1_grupo">
+            <input type="text" id="nombre" class="formu1_input" placeholder=" ">
+            <label for="Nombre" class="formu1_label"> Nombre</label>
+            <span class="formu1_linea"></span>
+        </div>
+        <div class="formu1_grupo">
+            <input type="text" id="usuario" class="formu1_input" placeholder=" ">
+            <label for="Usuario" class="formu1_label"> Usuario</label>
+            <span class="formu1_linea"></span>
+        </div>
+        <div class="formu1_grupo">
+            <input type="text" id="password" class="formu1_input" placeholder="  ">
+            <label for="password" class="formu1_label"> Contraseña</label>
+            <span class="formu1_linea"></span>
+        </div>
+
+        <input type="submit" class="formu1_submit" value="Ingresar">
     </div>
+</form>
+
+
+
+
 </main>
 <footer class="bg-light text-center text-black">
     <!-- Grid container -->
