@@ -1,6 +1,10 @@
 /*index*/
 
 
+
+
+
+
 body {
   background: linear-gradient(-45deg, #8ec4df, #6579dd, #cdd5df, #cec8ee);
   background-size: 400% 400%;
@@ -39,34 +43,6 @@ body {
 
 .d-block {
   height: 580px; }
-
-/* .carousel-inner {
-  padding: 0% 15%;
-  margin: auto; }
-
-.carousel-caption h5 {
-  font-size: 25px;
-  color: black; }
-
-.carousel-caption p {
-  font-size: 22px;
-  color: black; } */
-
-/* .d-block:hover {
-  cursor: pointer;
-  opacity: 50%;
-  transition: 0.2s; } */
-/* 
-.carousel-caption:hover {
-  cursor: pointer;
-  color: black;
-  transition: 0.6s;
-  box-shadow: 5px 5px 8px black;
-  background-size: 400% 400%;
-  background: linear-gradient(-45deg, #080163, #61baf5, #0497cc, #2804f3);
-  animation: gradient 8s ease infinite;
-  border-radius: 15%; } */
-
 
   .card{
     justify-content: center;
@@ -168,7 +144,6 @@ body {
   
 }
 
-
 .container1 {
   width: 100%;
   max-width: 1200px;
@@ -190,7 +165,7 @@ body {
     }
     .container1 .card img{
       width: 290px !important;
-      height: 210px !important;
+      height: 230px !important;
     }
   }
 
@@ -202,11 +177,11 @@ body {
       font-size: 18px;
     }
     .card p{
-      font-size: 8px;
+      font-size: 5px;
     }
     .container1 .card img{
       width: 290px !important;
-      height: 210px !important;
+      height: 230px !important;
     }
   }
 
@@ -222,7 +197,7 @@ body {
     }
     .container1 .card img{
       width: 290px !important;
-      height: 210px !important;
+      height: 230px !important;
     }
     .card {
       margin: auto;
@@ -241,8 +216,9 @@ body {
       font-size: 2px;
     }
     .container1 .card img{
+      justify-content: center;
       width: 290px !important;
-      height: 210px !important;
+      height: 230px !important;
     }
     .card {
       margin: auto;
@@ -251,6 +227,7 @@ body {
   }
 
 .container1 .card {
+  justify-content: center;
   width: 290px;
   height: 400px;
   border-radius: 8px;
@@ -418,8 +395,6 @@ body {
   color: #080163;
 }
 
-
-
 .formu1_label{
   color: var(--color);
   cursor: pointer;
@@ -464,7 +439,6 @@ body {
   }
 }
 
-
 /*Seccion REGISTRARSE ----> Lo mismo que Iniciar Sesion  */
 
 /*Footer*/
@@ -503,16 +477,3 @@ body {
     width: 200px;
   }
 }
-
-/* @media(max-width:920px){
-  .d-block, .w-100 {
-    height: 200px;
-    width: 100%;
-  }
-}
-
-@media(max-width:920px){
-  .card{
-  height: 200px;
-  }
-} */ 
